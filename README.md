@@ -156,7 +156,7 @@ $ cd Design_and_Build
 
 List of features ready and TODOs for future development
 
-### 1. Object Detection in E-commerce\readme\readme\Image\s
+### 1. Object Detection in Images
 
 * **Script**: `test_model.py`
 * **Description**: This script performs object detection on E-commerce\readme\readme\Image\s using a pre-trained YOLOv8 model. Detected objects are filtered based on confidence thresholds and specific categories.
@@ -176,7 +176,7 @@ List of features ready and TODOs for future development
   ```
 * **Note**: Make sure that the dependency libraries 'ultralytics', 'opencv-python', and 'torch' are installed.
 
-### 3. E-commerce\readme\readme\Image\ Comparison GUI
+### 3. Image Comparison GUI
 
 * **Script**: `pic_comparison.py`
 * **Description**: The script provides a graphical user interface for side-by-side comparisons showing the E-commerce\readme\readme\Image\s before and after the detection was performed.
