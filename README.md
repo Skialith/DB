@@ -1,6 +1,14 @@
 # Design and Build -- Group45
 
-
+## Table of Contents
+- [Project Overview](#project-overview)
+  - [Departments](#departments)
+    - [Telecom Department](#telecom-department)
+    - [E-Commerce Department](#e-commerce-department)
+    - [IoT Department](#iot-department)
+- [Project Outcome](#project-outcome)
+- [Database](#database)
+- [Potential Applications](#potential-applications)
 - [Telecom](#telecom)
 - [Intelligent Photo-Recognition Obstacle-Avoidance Car](#intelligent-photo-recognition-obstacle-avoidance-car)
   - [Introduction](#introduction)
@@ -31,6 +39,45 @@
   - [Method for running code: Installation, Operating method](#method-for-running-code-installation-operating-method)
   - [Instructions for use](#instructions-for-use)
   - [Developer](#developer)
+## Project Overview
+
+Our collaborative endeavor focuses on the design and development of a prototype robot control system tailored 
+for the exploration of a complex walled maze, housing a concealed treasure. 
+This innovative project is helmed by a dynamic "engineering design company" structured 
+into three specialized departments: E-Commerce, Telecoms, and IoT. 
+Each department contributes to the project with its unique set of responsibilities.
+
+### Departments
+
+#### Telecom Department
+
+- Specializes in the electronic design and microcontroller programming of the autonomous robot, a pivotal component in our maze exploration system.
+
+#### E-Commerce Department
+
+- Tasked with the creation of a robust database and the development of a user-friendly website, this department ensures that our robot controllers (users) have a seamless and efficient experience.
+
+#### IoT Department
+
+- Responsible for implementing elementary AI programming, which plays a crucial role in the detection of the hidden treasure within the maze.
+
+## Project Outcome
+
+In the culmination of our project, the autonomous robot adeptly navigates the labyrinthine maze, successfully locating the concealed treasure. Employing sophisticated camera technology, the robot captures images of the treasure and employs cutting-edge object detection algorithms, including YOLOv8, to identify the type of treasure.
+
+The robot provides real-time updates on the exploration's status, offering a comprehensive display of images taken, exploration time, record count, all accessible through a user-friendly web interface. An integral web application allows users to efficiently manage their personal information and provides access to current and historical exploration records.
+
+## Database
+
+Our robust MySQL database serves as the foundation for the entire system, securely storing all crucial information in the background.
+
+## Potential Applications
+
+The potential applications of this project extend to educational institutions, 
+empowering students to cultivate their problem-solving skills, 
+apply their theoretical knowledge in practical scenarios, 
+and gain valuable teamwork experience. 
+This project champions innovation and initiative, fostering essential qualities in the engineering domain.
 
 # Telecom
 # Intelligent Photo-Recognition Obstacle-Avoidance Car
