@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+
+<!-- 配置文件 -->
+<display-name>testweb1</display-name>
+  <servlet>
+  <servlet-name>loginServlet</servlet-name>
+  <servlet-class>testweb1.servlet.UserLoginServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>registerServlet</servlet-name>
+  <servlet-class>testweb1.servlet.UserRegisterServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>printServlet</servlet-name>
+  <servlet-class>testweb1.servlet.ShowRecordServlet</servlet-class>
+</servlet>
+
+<servlet>
+  <servlet-name>uploadImgServlet</servlet-name>
+  <servlet-class>testweb1.servlet.UploadImgServlet</servlet-class>
+  <multipart-config></multipart-config>
+</servlet>
+
+<servlet>
+  <servlet-name>showImgServlet</servlet-name>
+  <servlet-class>testweb1.servlet.ShowImgServlet</servlet-class>
+</servlet>
+
+<!-- 指定首页 -->
+<welcome-file-list>
+  <welcome-file>/login.jsp</welcome-file>
+</welcome-file-list>
+
+<servlet-mapping>
+  <servlet-name>loginServlet</servlet-name>
+  <url-pattern>/login</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>registerServlet</servlet-name>
+  <url-pattern>/register</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>printServlet</servlet-name>
+  <url-pattern>/print</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>uploadImgServlet</servlet-name>
+  <url-pattern>/upload</url-pattern>
+</servlet-mapping>
+
+<servlet-mapping>
+  <servlet-name>showImgServlet</servlet-name>
+  <url-pattern>/showImg</url-pattern>
+</servlet-mapping>
+
+<servlet>
+	  <servlet-name>updatedPasswordServlet</servlet-name>
+	  <servlet-class>testweb1.servlet.UserupdatedPassword</servlet-class>
+	   </servlet>
+	 <servlet-mapping>
+	  <servlet-name>updatedPasswordServlet</servlet-name>
+	  <url-pattern>/updatedPassword</url-pattern>
+  </servlet-mapping>
+   <servlet>
+	  <servlet-name>updatedUsernameServlet</servlet-name>
+	  <servlet-class>testweb1.servlet.UserupdatedUsername</servlet-class>
+	   </servlet>
+	    <servlet-mapping>
+	  <servlet-name>updatedUsernameServlet</servlet-name>
+	  <url-pattern>/updatedUsername</url-pattern>
+  </servlet-mapping>
+  <servlet>
+	  <servlet-name>deleteServlet</servlet-name>
+	  <servlet-class>testweb1.servlet.UserdeleteServlet</servlet-class>
+	   </servlet>
+	   <servlet-mapping>
+	  <servlet-name>deleteServlet</servlet-name>
+	  <url-pattern>/delete</url-pattern>
+  </servlet-mapping>
+	   <servlet>
+	   	<servlet-name>UpdatedAddressServlet</servlet-name>
+	   	<servlet-class>testweb1.servlet.UpdatedAddressServlet</servlet-class>
+	   </servlet>
+	   <servlet-mapping>
+	   	<servlet-name>UpdatedAddressServlet</servlet-name>
+	   	<url-pattern>/updatedAddress</url-pattern>
+	   </servlet-mapping>
+	   <servlet>
+	   	<servlet-name>UserupdatedRobotname</servlet-name>
+	   	<servlet-class>testweb1.servlet.UserupdatedRobotname</servlet-class>
+	   </servlet>
+	   <servlet-mapping>
+	   	<servlet-name>UserupdatedRobotname</servlet-name>
+	   	<url-pattern>/updatedRobotname</url-pattern>
+	   </servlet-mapping>
+	   <servlet>
+	   	<servlet-name>WelcomeRefreshServlet</servlet-name>
+	   	<servlet-class>testweb1.servlet.WelcomeRefreshServlet</servlet-class>
+	   </servlet>
+	   <servlet-mapping>
+	   	<servlet-name>WelcomeRefreshServlet</servlet-name>
+	   	<url-pattern>/Refresh</url-pattern>
+	   </servlet-mapping>
+	   <servlet>
+	   	<servlet-name>ShowEnvironmentServlet</servlet-name>
+	   	<servlet-class>testweb1.servlet.ShowEnvironmentServlet</servlet-class>
+	   </servlet>
+	   <servlet-mapping>
+	   	<servlet-name>ShowEnvironmentServlet</servlet-name>
+	   	<url-pattern>/Environment</url-pattern>
+	   </servlet-mapping>
+	   <servlet>
+	   	<servlet-name>UpdatedAddressServlet2</servlet-name>
+	   	<servlet-class>testweb1.servlet.UpdatedAddressServlet2</servlet-class>
+	   </servlet>
+	   <servlet-mapping>
+	   	<servlet-name>UpdatedAddressServlet2</servlet-name>
+	   	<url-pattern>/updatedAddress2</url-pattern>
+	   </servlet-mapping>
+</web-app>
