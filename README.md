@@ -188,7 +188,7 @@ List of features ready and TODOs for future development
 
 ### 4. Video Frame Capture
 
-* **Script**: `extraction_of_frame.py`
+* **Script**: `extraction_of_frame.py`  
 * **Description**: This script captures video frames and saves them as E-commerce\readme\readme\Image\s to help the Telecom team record photos of the environment during their explorations
 * **Usage**: 
   ```sh
